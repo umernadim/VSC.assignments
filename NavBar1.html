@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+
+        nav {
+            overflow: hidden;
+            background-color: rgb(30, 35, 58);
+            line-height: 35px;
+            box-sizing: border-box;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            float: left;
+            text-align: center;
+            width: 120px;
+            padding: 13px 15px;
+            font-size: 17px;
+        }
+
+        nav a:hover {
+            background-color: #dddd;
+            color: black;
+        }
+        nav .formcontainer{
+            float: right;
+            margin-top: 10px;
+            margin-right: 100px;
+        }
+        nav input[type=text], input[type=password]{
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            width: 150px;
+            border: none;
+        }
+        .formcontainer button{
+            float: right;
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+            background-color: #2196f3;
+            color: white;
+        }
+        .formcontainer button:hover{
+            background-color: #dddd;
+        }
+        nav a.active{
+            background-color: #2196f3;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="#">Help</a>
+        <div class="formcontainer">
+            <form action="">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </nav>
+</body>
+
+</html>
