@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        /* styling for card 1 */
+        .image {
+            width: 250px;
+        }
+
+        .card {
+            width: 250px;
+            box-shadow: 5px 5px 6px #dddd;
+        }
+
+        h2,
+        h4 {
+            margin-left: 10px;
+        }
+
+        .btn {
+            width: 250px;
+            border: 2px solid black;
+            background-color: black;
+            font-size: 17px;
+            color: white;
+            height: 40px;
+            cursor: pointer;
+        }
+
+        /* styling for card 2 */
+        .container{
+            height: 400px;
+            width: 100%;
+            background-color: black;
+            padding-top: 50px;
+        }
+        .sqr{
+            border-top: 2px solid blue ;
+            border-bottom: 2px solid blue;
+            border-left: 2px solid greenyellow;
+            border-right: 2px solid greenyellow;
+            background-color:rgb(138, 7, 7);
+            height: 280px;
+            width: 200px;
+            border-radius: 20px;
+            box-shadow: 3px 5px 4px red;
+            box-sizing: border-box;
+            color: rgb(248, 165, 179);
+            padding:25px;
+            font-family: sans-serif;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- card 1 -->
+    <div class="card">
+        <img src="https://cdn.britannica.com/34/254634-050-C62ACCB9/British-Actor-Henry-Cavill-February-2024.jpg"
+            class="image" alt="image">
+        <h2>Henry Cavill</h2>
+        <h4>British-Actor</h4>
+        <button class="btn">Contact</button>
+    </div>
+    <br><br>
+
+    <!-- card 2 -->
+    <div class="container">
+        <div class="sqr">
+            <h1>Attitude is Everything</h1> 
+            <h1>By</h1>
+            <h3>Jeff killer</h3>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
